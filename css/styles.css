@@ -1,0 +1,22 @@
+.flex-container{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display:-webkit-flex;
+    display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+.flex-item{
+    background-color: rgb(235, 81, 10);
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: #fff;
+    font-weight: 3rem;
+    text-align: center;
+}
